@@ -1,0 +1,165 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+.left-container{
+  display: flex;
+  width: 5%;
+  align-items: center;
+  background-color: #0e1821;
+  justify-content: center;
+}
+.right-container{
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  min-height: 100vh;
+  background-color:#0e1821;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nav{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 20%;
+}
+.nav button{
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.nav .btnLink{
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+}
+.home{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.home h1{
+  margin-top: 200px;
+  text-align: center;
+  font-size: 6rem;
+}
+.home span{
+  font-size: 1rem;
+  margin-left: -10px;
+}
+.type-container{
+  width:100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 80px;
+  text-align: center;
+}
+.type-container h3{
+  font-size: 4rem;
+}
+.form{
+  width: 100%;
+  height: 100vh;
+  margin-top: 200px;
+  color: white;
+}
+.form h1{
+  font-size: 3.5rem;
+  margin-left: 500px;
+}
+.form button{
+  background-color:#0e1821;
+  border: 2px solid white;
+  color: white;
+  padding: 10px;
+  width: 100px;
+  margin-left: 180px;
+  margin-top: 20px;
+  outline: none;
+  cursor: pointer;
+}
+.form h3{
+  margin-bottom: 5px;
+  font-weight: 200;
+  margin-top: 5px;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 30%;
+  margin-left: 500px;
+}
+form input,select{
+  height: 40px;
+  padding: 10px;
+  color: white;
+  background-color:#0e1821;
+  border: 2px solid white;
+  outline: none;
+}
+form input:nth-child(4){
+  text-transform: capitalize;
+}
+
+.alltrip{
+  background-color:#0e1821;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.alltrip h1{
+  color: white;
+  margin-top: 80px;
+  font-size: 3rem;
+  text-align: center;
+}
+.alltrip table{
+  width: 400px;
+  margin-top: 100px;
+  margin-left: 560px;
+}
+tr{
+  text-align: left;
+   text-transform: capitalize;
+}
+th{
+  border-bottom: 1px solid white;
+  font-size: 1.2rem;
+  color: white;
+  font-weight: 600;
+}
+td{
+  font-size: 1.2rem;
+  color: white;
+  font-weight: 200;
+ 
+}
+.filter ul{
+  display: flex;
+  color: white;
+  width: 500px;
+  justify-content: space-around;
+  margin-top: 90px;
+  margin-left: 490px;
+}
+.filter li, li button{
+  font-size: 1.3rem;
+  background-color: transparent;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.filter p{
+  font-size: 1.3rem;
+}
+
